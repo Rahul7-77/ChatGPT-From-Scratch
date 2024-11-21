@@ -23,7 +23,7 @@ pip install torch
 ```
 
 **How to Use**
-**1. Training the Model**
+* **1. Training the Model**
 To train the model, simply run the following command:
 
 ```bash
@@ -31,7 +31,7 @@ python gpt.py
 ```
 This will start the training process. By default, the script uses a simple dataset (you can modify the dataset path within the script to use your own text data). During training, the model learns to predict the next token in the sequence, and the loss is printed at intervals.
 
-**2. Text Generation**
+* **2. Text Generation**
 Once training is complete, the model can generate text. The script includes functionality to generate text after training. By modifying the code slightly, you can change the initial seed or prompt, and the model will generate text step-by-step based on what it has learned.
 
 **Model Architecture**
