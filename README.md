@@ -54,16 +54,16 @@ In this model, only the decoder block of the transformer is used for autoregress
 * **Model saves automatically:**
 * Once the training is complete, the model's weights are saved, and it can be used to generate text based on the learned knowledge.
 * **Text generation:**
-*After training, the model can be used to generate text by modifying the seed input in the script. It will generate text token-by-token, continuing from the seed provided.
+* After training, the model can be used to generate text by modifying the seed input in the script. It will generate text token-by-token, continuing from the seed provided.
 **Future Improvements** 
-Custom datasets: Extend the script to support various text datasets with customizable preprocessing steps (e.g., tokenization).
-Hyperparameter tuning: Implement argument parsing to configure hyperparameters like batch_size, learning_rate, etc., from the command line.
-Model checkpoints: Add functionality to save model checkpoints during training to avoid losing progress in case of interruptions.
-Advanced text generation: Implement temperature sampling, top-k sampling, or other techniques to improve the quality and creativity of generated text.
-License
+* **Custom datasets**: Extend the script to support various text datasets with customizable preprocessing steps (e.g., tokenization).
+* **Hyperparameter tuning**: Implement argument parsing to configure hyperparameters like batch_size, learning_rate, etc., from the command line.
+* **Model checkpoints**: Add functionality to save model checkpoints during training to avoid losing progress in case of interruptions.
+* **Advanced text generation**: Implement temperature sampling, top-k sampling, or other techniques to improve the quality and creativity of generated text.
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Notes:
-Simplicity: This project is designed to be simple and easy to understand, with all code for training and text generation contained in a single script.
-Text Generation: Since the model is autoregressive, it generates text one token at a time, predicting each token based on the previous ones.
+# Notes:
+* **Simplicity**: This project is designed to be simple and easy to understand, with all code for training and text generation contained in a single script.
+* **Text Generation**: Since the model is autoregressive, it generates text one token at a time, predicting each token based on the previous ones.
 
