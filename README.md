@@ -48,17 +48,14 @@ In this model, only the decoder block of the transformer is used for autoregress
 * Training loop for learning from the dataset.
 * Text generation functionality after training.
 
-Example Workflow
-Run the training loop:
-
-By executing python gpt.py, the model begins training on your dataset. The training loss will be printed at regular intervals.
-Model saves automatically:
-
-Once the training is complete, the model's weights are saved, and it can be used to generate text based on the learned knowledge.
-Text generation:
-
-After training, the model can be used to generate text by modifying the seed input in the script. It will generate text token-by-token, continuing from the seed provided.
-Future Improvements
+**Example Workflow**
+* **Run the training loop:**
+* By executing python gpt.py, the model begins training on your dataset. The training loss will be printed at regular intervals.
+* **Model saves automatically:**
+* Once the training is complete, the model's weights are saved, and it can be used to generate text based on the learned knowledge.
+* **Text generation:**
+*After training, the model can be used to generate text by modifying the seed input in the script. It will generate text token-by-token, continuing from the seed provided.
+**Future Improvements** 
 Custom datasets: Extend the script to support various text datasets with customizable preprocessing steps (e.g., tokenization).
 Hyperparameter tuning: Implement argument parsing to configure hyperparameters like batch_size, learning_rate, etc., from the command line.
 Model checkpoints: Add functionality to save model checkpoints during training to avoid losing progress in case of interruptions.
