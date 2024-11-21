@@ -35,7 +35,7 @@ This will start the training process. By default, the script uses a simple datas
 Once training is complete, the model can generate text. The script includes functionality to generate text after training. By modifying the code slightly, you can change the initial seed or prompt, and the model will generate text step-by-step based on what it has learned.
 
 **Model Architecture**
-The model is based on a decoder-only transformer, which is a simplified version of the original Transformer architecture. Key components include:
+The model is based on a decoder-only transformer, which is a simplified version of the original Transformer architecture proposed in the "Attention Is All You Need" paper. Key components include:
 
 * **Self-attention Mechanism**
 The self-attention mechanism enables the model to compute relationships between all tokens in the input sequence. This allows the model to attend to relevant parts of the sequence, regardless of the token’s position.
