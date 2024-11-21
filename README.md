@@ -56,6 +56,9 @@ In this model, only the decoder block of the transformer is used for autoregress
 * **Text generation:**
  After training, the model can be used to generate text by modifying the seed input in the script. It will generate text token-by-token, continuing from the seed provided.
 
+# Results:
+* Results can be seen in "results.txt" file in repo. I had used two datasets for this model which are shakespheare dataset(input.txt) and sherlock homes dataset(input2.txt). The model was able to generate the text in the dataset fashion. 
+
 # Future Improvements 
 * **Custom datasets**: Extend the script to support various text datasets with customizable preprocessing steps (e.g., tokenization).
 * **Hyperparameter tuning**: Implement argument parsing to configure hyperparameters like batch_size, learning_rate, etc., from the command line.
